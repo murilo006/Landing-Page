@@ -1,0 +1,164 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    img{
+      position: relative;
+      float: left;
+      padding-top: 10px;
+      width: auto;
+      height: 600px;
+    }
+    
+    .container{
+      position: absolute;
+      margin-left: 405px;
+      font-size: 3em;
+      color: white;
+      padding: 5px 10px;
+      text-align: justify;
+      line-break: normal;
+    }
+    
+    p{
+      font-size: 23px;
+      line-height: 1em;
+      padding: 20px 20px;
+      text-align: justify;
+      margin-left: 450px;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      min-height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .p2{
+      font-size: 23px;
+      line-height: 1em;
+      padding: 20px 20px;
+      text-align: justify;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      text-align: center;
+    }
+
+    .perfil {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .perfil img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+
+    .perfil a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    
+    .form-container {
+      background: white;
+      padding: 40px;
+      max-width: 1425px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    table {
+      width: 80%;
+      max-width: 1600px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 20px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: white;
+    }
+
+    td.preco {
+      font-weight: bold;
+    }
+
+    td.tipo {
+      color: #555;
+      font-size: 1.1rem;
+    }
+  </style>
